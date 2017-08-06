@@ -2,14 +2,15 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  #随笔: /categories/cat1/
+  归档: /archives/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "http://music.163.com/#/user/home?id=285391254"
-  zhihu: "#"
+  github: "https://github.com/GALI472"
+  weibo: "http://weibo.com/yangfengyu1991"
+  #wangyiyun: "http://music.163.com/#/user/home?id=285391254"
+  zhihu: "https://www.zhihu.com/people/yang-feng-yu-13"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -68,7 +69,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /assets/img/cat.jpeg
 
 #是否开启分享
 share_jia: true
@@ -100,6 +101,10 @@ style:
 slider:
   # 是否默认展开tags板块
   showTags: false
+#widgets:
+#  - category
+#  - tag
+#  - archive
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -108,7 +113,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  #friends: '友链'
   aboutme: '关于我'
 
 friends:
@@ -119,4 +124,4 @@ friends:
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 人蠢无药医<br><br>毕业于NUDT，就职于"宇宙O2O"<br>机器学习dog<br><br>汪汪~<br>
